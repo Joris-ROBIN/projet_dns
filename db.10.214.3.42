@@ -1,0 +1,13 @@
+;------------db.10.214.3.42-------------
+$TTL 1h;
+@ IN SOA dns.joris-local. root.joris-robin.local (
+	2015091301 ; Serial
+	Page 3
+	3600 ; Refresh(1h)
+	3600 ; Retry(1h)
+	3600000 ; Expire(41j)
+	86400 ) ; Minimum(24h)
+@ IN NS dns.joris-robin.local.
+
+
+10.214.3.42 IN PTR dns.joris-robin.local. 
